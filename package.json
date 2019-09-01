@@ -1,0 +1,25 @@
+{
+  "name": "brus-bany-request-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StepinPV/brus-bany-requests-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StepinPV/brus-bany-requests-bot/issues"
+  },
+  "homepage": "https://github.com/StepinPV/brus-bany-requests-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
