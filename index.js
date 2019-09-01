@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 
 console.log('START APP 4000');
 
-app.listen(3000);
+app.listen(80);
 
 /*const TelegramBot = require('node-telegram-bot-api');
 
