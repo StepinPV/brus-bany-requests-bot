@@ -1,13 +1,14 @@
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 app.get('/', function (req, res) {
     res.send('Hello World');
 });
 
-console.log('START APP process.env.PORT || 5000');
+console.log(`START APP ${PORT}`);
 
-app.listen(process.env.PORT || 5000);
+app.listen(PORT);
 
 /*const TelegramBot = require('node-telegram-bot-api');
 
