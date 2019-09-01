@@ -5,9 +5,9 @@ app.get('/', function (req, res) {
     res.send('Hello World');
 });
 
-console.log('START APP 4000');
+console.log('START APP process.env.PORT || 5000');
 
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
 
 /*const TelegramBot = require('node-telegram-bot-api');
 
